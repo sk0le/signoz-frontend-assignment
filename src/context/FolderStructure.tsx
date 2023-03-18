@@ -1,7 +1,7 @@
 import { createContext, useCallback, useEffect, useState } from "react";
 import { sampleFiles, sampleFolder } from "../data/sampleData";
-import { FolderStructureContext } from "../types/context";
-import { FileInterface, Folder } from "../types/structure";
+import { FolderStructureContext } from "../@types/context";
+import { FileInterface, Folder } from "../@types/structure";
 
 export const FolderStructure = createContext<FolderStructureContext | null>(
   null

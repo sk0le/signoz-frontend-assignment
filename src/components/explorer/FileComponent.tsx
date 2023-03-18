@@ -1,4 +1,4 @@
-import { FileInterface } from "../../types/structure";
+import { FileInterface } from "../../@types/structure";
 
 const FileComponent = ({ name, ext, id }: FileInterface) => {
   const handleDragStart = (event: React.DragEvent<HTMLDivElement>) => {

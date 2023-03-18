@@ -1,4 +1,4 @@
-import { FileInterface, Folder } from "../types/structure";
+import { FileInterface, Folder } from "../@types/structure";
 
 export const sampleFolder: Folder[] = [
   { name: "folder 1", path: "/", id: 0 },

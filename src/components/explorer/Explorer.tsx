@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { FolderStructure } from "../../context/FolderStructure";
-import { FolderStructureContext } from "../../types/context";
-import { FileInterface, Folder } from "../../types/structure";
+import { FolderStructureContext } from "../../@types/context";
+import { FileInterface, Folder } from "../../@types/structure";
 import FolderComponent from "./FolderComponent";
 import FileComponent from "./FileComponent";
 

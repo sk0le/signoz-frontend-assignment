@@ -1,8 +1,8 @@
 import { ChevronDownIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 import { useContext, useEffect, useState } from "react";
 import { FolderStructure } from "../../context/FolderStructure";
-import { FolderStructureContext } from "../../types/context";
-import { FileInterface, Folder } from "../../types/structure";
+import { FolderStructureContext } from "../../@types/context";
+import { FileInterface, Folder } from "../../@types/structure";
 import FileComponent from "./FileComponent";
 
 const FolderComponent = ({ name, path, id }: Folder) => {
