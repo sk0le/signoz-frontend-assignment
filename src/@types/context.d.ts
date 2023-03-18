@@ -1,7 +1,7 @@
-import { File, Folder } from "./structure";
+import { FileInterface, Folder } from "./structure";
 
 export type FolderStructureContext = {
-  get: (path: string) => { folders?: Folder[]; files?: Files[] };
+  get: (path: string) => { folders?: Folder[]; files?: FileInterface[] };
   drop: (
     id: number,
     path: string,
